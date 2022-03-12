@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_parcel_shipping_app/ui/widgets/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
             title: Padding(
               padding: EdgeInsets.only(left: 24.0),
               child: Text(
-                'Track parcel',
+                'Track Parcel',
                 style: Theme.of(context).textTheme.headline1,
               ),
             ),
@@ -103,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: TextButton(
                               onPressed: () {},
                               child: Text(
-                                'Track parcel',
+                                'Track Parcel',
                                 style: Theme.of(context).textTheme.bodyText1,
                               ),
                               style: Theme.of(context).textButtonTheme.style,
@@ -245,6 +246,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+      bottomNavigationBar: MyBottomNavigationBar(),
     );
   }
 }
