@@ -20,6 +20,7 @@ class _SendParcelCheckoutScreenState extends State<SendParcelCheckoutScreen> {
           ),
           child: ListView(
             children: [
+              const SizedBox(height: 17),
               Text(
                 'Checkout',
                 style: Theme.of(context).textTheme.headline1,
@@ -185,7 +186,7 @@ class _SendParcelCheckoutScreenState extends State<SendParcelCheckoutScreen> {
               ),
               style: Theme.of(context).textButtonTheme.style,
             ),
-          )
+          ),
         ],
       ),
     );

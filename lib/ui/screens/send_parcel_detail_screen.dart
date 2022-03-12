@@ -18,6 +18,7 @@ class _SendParcelDetailScreenState extends State<SendParcelDetailScreen> {
         ),
         child: ListView(
           children: [
+            const SizedBox(height: 17),
             Text(
               'Send parcel',
               style: Theme.of(context).textTheme.headline1,

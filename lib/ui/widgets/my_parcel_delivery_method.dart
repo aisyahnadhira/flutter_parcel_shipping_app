@@ -67,8 +67,8 @@ class _MyParcelDeliveryMethodState extends State<MyParcelDeliveryMethod> {
                     style: Theme.of(context).textTheme.headline4,
                   ),
                   Text(
-                    widget.parcelDeliveryMethod,
-                    style: Theme.of(context).textTheme.headline5,
+                    widget.parcelDeliveryDuration,
+                    style: Theme.of(context).textTheme.headline4,
                   )
                 ],
               )

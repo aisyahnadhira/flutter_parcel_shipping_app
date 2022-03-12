@@ -26,10 +26,15 @@ class _HomeScreenState extends State<HomeScreen> {
             floating: true,
             snap: false,
             titleSpacing: 0,
-            actions: const [
+            actions: [
               Padding(
                 padding: EdgeInsets.only(right: 24.0),
-                child: CircleAvatar(),
+                child: CircleAvatar(
+                  child: ClipOval(
+                    child: Image.network(
+                        "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/01/10/1126947856.jpeg"),
+                  ),
+                ),
               ),
             ],
             shadowColor: Colors.transparent,
