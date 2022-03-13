@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       title: 'Parcel Shipping App',
       theme: ParcelAppTheme.lightTheme,
       home: const Scaffold(
-        body: SendParcelCheckoutScreen(),
+        body: ParcelCenterScreen(),
         bottomNavigationBar: MyBottomNavigationBar(),
       ),
     );

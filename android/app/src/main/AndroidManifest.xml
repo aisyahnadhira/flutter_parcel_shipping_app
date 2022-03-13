@@ -4,6 +4,8 @@
         android:label="flutter_parcel_shipping_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBOJnPvmpN0rpWR9xgJHTaOLU9H7IHyn0w"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
